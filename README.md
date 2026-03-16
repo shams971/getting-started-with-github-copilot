@@ -4,15 +4,32 @@ _Get started using GitHub Copilot in less than an hour._
 
 ## Welcome
 
-- **Who is this for**: Developers at any experience level looking to accelerate their code workflow.
-- **What you'll learn**: The different ways to interact with Copilot to explain, write, plan, and develop code.
-- **What you'll build**: You will guide Copilot to update Mergington High School's extracurricular activities website.
-- **Prerequisites**:
+ **Who is this for**: Developers at any experience level looking to accelerate their code workflow.
+ **What you'll learn**: The different ways to interact with Copilot to explain, write, plan, and develop code.
+ **What you'll build**: You will guide Copilot to update Mergington High School's extracurricular activities website.
+ **Prerequisites**:
   - Skills exercise: [Introduction to GitHub](https://github.com/skills/introduction-to-github)
   - Familiarity with [VS Code](https://code.visualstudio.com/)
   - Basic coding principles
-- **How long**: This exercise takes less than one hour to complete.
+ **How long**: This exercise takes less than one hour to complete.
 
+## Quick Start
+
+1. **Install dependencies**
+  Run:
+  ```
+  pip install -r requirements.txt
+  ```
+
+2. **Start the server**
+  Run:
+  ```
+  uvicorn src.app:app --reload
+  ```
+
+3. **Open your browser**
+  - Web app: http://localhost:8000/static/index.html
+  - API docs: http://localhost:8000/docs
 In this exercise, you will:
 
 1. Use a preconfigured Codespace to run VS Code in your browser.
